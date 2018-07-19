@@ -2,6 +2,7 @@
 
 import Foundation
 
+//Codable Struct to represent JSON payload
 struct NewsSource: Codable {
     let status: String?
     let totalResults: Int?
@@ -28,3 +29,16 @@ struct NewsSource: Codable {
         case articles
     }
 }
+
+//MARK: Sorting Order Enums
+enum SortOptions: String {
+    case relevancy // articles more closely related to q come first.
+    case popularity // articles from popular sources and publishers come first.
+    case publishedAt //newest articles come first.
+}
+
+//MARK: URL EndPoints
+var topHeadLinesUrl = URLComponents(string: "https://newsapi.org/v2/top-headlines?")
+var everythingUrl = URLComponents(string: "https://newsapi.org/v2/everything?")
+var sourcesUrl = URLComponents(string: "https://newsapi.org/v2/sources?") // convenience endpoint for tracking publishers
+

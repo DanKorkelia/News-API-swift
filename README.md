@@ -20,5 +20,4 @@ You can sort the results in the following orders:
 Date published
 Relevancy to search keyword
 Popularity of source
-Social shares (Coming soon!)
 You need an API key to use the API - this is a unique key that identifies your requests. They're free for development, open-source, and non-commercial use. You can get one here: https://newsapi.org.
