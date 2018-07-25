@@ -23,5 +23,4 @@ Popularity of source
 You need an API key to use the API - this is a unique key that identifies your requests. They're free for development, open-source, and non-commercial use. You can get one here: https://newsapi.org.
 
 ## Example of App
-Inline-style: 
 ![iOS App Prototype](https://pbs.twimg.com/media/DiYN16TW4AAokXQ.jpg:small "News API Prototype iOS App")
