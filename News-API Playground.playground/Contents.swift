@@ -1,4 +1,4 @@
-//MARK: News API https://newsapi.org
+//: ## MARK: News API https://newsapi.org
 
 import Foundation
 
@@ -51,7 +51,7 @@ let language = URLQueryItem(name: "language", value: "en")
 let country = URLQueryItem(name: "country", value: "us")
 let sourcesName = URLQueryItem(name: "sources", value: "bbc-news")
 
-//API Key, This is a unique key that identifies your requests. They're free for development, open-source, and non-commercial use. You can get one here: https://newsapi.org
+//: API Key, This is a unique key that identifies your requests. They're free for development, open-source, and non-commercial use. You can get one here: https://newsapi.org
 
 let secretAPIKey = URLQueryItem(name: "apiKey", value: "")
 
